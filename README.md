@@ -1,96 +1,94 @@
-# LLM Training From Scratch
+# 从零开始训练大模型
 
-这是一个从零开始训练大规模语言模型的开源项目。本项目旨在提供一个清晰、可扩展的代码框架，帮助理解和实现Transformer架构的语言模型训练。
+本项目旨在帮助对大模型训练感兴趣的初学者从零开始了解和实践大模型训练流程。无论你是否有编程经验，都可以通过本教程逐步掌握大模型训练的核心概念和实践方法。
 
-## 项目特点
+## 🌟 项目亮点
 
-- 🚀 模块化的代码结构，便于理解和扩展
-- 📦 完整的训练流程实现
-- 🔧 可配置的模型参数和训练设置
-- 📈 训练过程监控和可视化
-- 🔄 支持断点续训
-- 📊 详细的评估指标
+- 📚 从零基础出发，循序渐进的学习路径
+- 🔍 详细的理论解析和实践指导
+- 💡 重点难点内容配有图解说明
+- 🛠️ 提供完整的代码实现和注释
+- 🎯 每个章节都有明确的学习目标和实践任务
+- 🤝 欢迎初学者参与和讨论
 
-## 安装
+## 📖 主要内容
+
+### 第一部分：基础知识
+
+- 深度学习基础概念
+
+  - 神经网络的基本原理
+  - 反向传播算法详解
+  - 优化器的选择与使用
+- Transformer架构基础
+
+  - 注意力机制详解
+  - 位置编码的实现
+  - 多头注意力机制的原理
+- 大模型训练必备知识
+
+  - 分布式训练原理
+  - 混合精度训练
+  - 梯度累积与梯度裁剪
+  - 模型并行与数据并行
+
+### 第二部分：模型架构设计与实现
+
+- 模型架构详解
+
+  - Transformer编码器和解码器
+  - 预训练目标设计
+  - 模型缩放策略
+- 训练流程搭建
+
+  - 数据预处理流程
+  - 训练框架选择
+  - 模型训练与验证
+  - 分布式训练实现
+
+## 🚀 快速开始
 
 1. 克隆项目
 
 ```bash
-git clone https://github.com/yangjie-ai/llm-training.git
+git clone https://github.com/yourusername/llm-training.git
 cd llm-training
 ```
 
-2. 创建虚拟环境
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# 或
-.\venv\Scripts\activate  # Windows
-```
-
-3. 安装依赖
+2. 安装依赖
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 项目结构
+3. 选择适合你的学习路径
 
-```
-project_root/
-├── config/          # 配置文件
-├── src/             # 源代码
-├── scripts/         # 训练和评估脚本
-├── tests/           # 测试代码
-└── outputs/         # 输出目录
-```
+- 完全新手：建议从第一部分基础知识开始
+- 有基础的同学：可以直接从感兴趣的章节开始学习
 
-## 使用方法
+## 📝 学习建议
 
-1. 数据预处理
+1. **循序渐进**：按照教程顺序学习，确保理解每个概念再进入下一章节
+2. **动手实践**：每个章节都配有实践任务，请务必完成
+3. **提问交流**：遇到问题可以在Issues区提问，互相学习
 
-```bash
-python scripts/preprocess.py --config config/data_config.yaml
-```
+## 🤝 如何贡献
 
-2. 训练模型
+我们欢迎所有形式的贡献，包括但不限于：
 
-```bash
-python scripts/train.py --config config/training_config.yaml
-```
+- 提交问题和建议
+- 改进文档
+- 贡献代码
+- 分享经验
 
-3. 评估模型
+## 📜 许可证
 
-```bash
-python scripts/evaluate.py --model-path outputs/checkpoints/latest
-```
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
 
-## 配置说明
+## 🌟 致谢
 
-模型和训练的配置都在 `config` 目录下：
+感谢所有为本项目做出贡献的开发者和研究者。如果您觉得这个项目对您有帮助，请给我们一个star！
 
-- `model_config.yaml`: 模型架构配置
-- `training_config.yaml`: 训练超参数配置
-- `data_config.yaml`: 数据处理配置
+---
 
-## 开发路线图
-
-- [X]  项目基础结构搭建
-- [ ]  数据预处理流程
-- [ ]  Transformer模型实现
-- [ ]  训练流程搭建
-- [ ]  分布式训练支持
-- [ ]  模型评估与分析工具
-
-## 贡献指南
-
-欢迎提交Issue和Pull Request！请确保在提交PR之前：
-
-1. 更新测试用例
-2. 遵循项目的代码规范
-3. 更新相关文档
-
-## 许可证
-
-本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
+⭐️ 如果这个项目对您有帮助，欢迎star支持！
