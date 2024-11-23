@@ -15,7 +15,7 @@
 
 | 章节标题                                          | 主要内容                                                                                | 所有代码和补充 |
 | ------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------- |
-| 第1章: 从零开始训练一个0.5B大模型理解大型语言模型 | [第一章]([https://](https://github.com/yangjie-ai/llm-training/blob/main/books/Chapter01.md)) | [代码](https://github.com/yangjie-ai/llm-training/tree/main/codes/Chapter01)       |
+| 第1章: 从零开始训练一个0.5B大模型理解大型语言模型 | [第一章](https://github.com/yangjie-ai/llm-training/blob/main/books/Chapter01.md) | [代码](https://github.com/yangjie-ai/llm-training/tree/main/codes/Chapter01)       |
 
 ## 🚀 快速开始
 
